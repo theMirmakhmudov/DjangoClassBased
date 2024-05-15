@@ -251,7 +251,7 @@
                                     <ul class="list-unstyled mb-0 d-flex justify-content-end">
                                         <li><a href="#" class="text-primary" data-toggle="tooltip" title
                                                data-original-title="view"><i class="far fa-eye"></i></a></li>
-                                        <li><a href="#" class="text-info" data-toggle="tooltip" title
+                                        <li><a href="{% url 'update' pk=user.id %}" class="text-info" data-toggle="tooltip" title
                                                data-original-title="Edit"><i class="fas fa-pencil-alt"></i></a></li>
                                         <li><a href="{% url 'delete' pk=user.id %}" class="text-danger"
                                                data-toggle="tooltip" title
